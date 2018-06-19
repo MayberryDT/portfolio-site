@@ -30,11 +30,12 @@ class Blog extends React.Component {
   render() {
     return (
       <div>
-        <PageHeader color="is-info" title="Code Blog">
+        <PageHeader color="is-info" title="The Blog">
             Here's where I blog on whatever aspect of my life seems
             appealing to blog about at the moment. This could range
             anywhere from living abroad to the new project I'm 
-            working on.
+            working on. I'll try my best to keep it up-to-date and 
+            entertaining.
         </PageHeader>
         <br />
         <PageContent>
