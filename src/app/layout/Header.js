@@ -15,17 +15,9 @@ class Header extends React.Component {
 
   render() {
     return (
-      <nav className="navbar"
-          aria-label="main navigation"
-          style={{
-            borderBottom: 'solid 1px #dddddd',
-          }}>
+      <nav className="navbar is-dark" aria-label="main navigation">
         <div className="navbar-brand">
-          <NavLink 
-            className="navbar-item"
-            to="/"
-            activeClassName="is-active"
-          >
+          <NavLink className="navbar-item" to="/" activeClassName="is-active">
             <span>mayberry.xyz</span>
           </NavLink>
           <button className="button navbar-burger" onClick={this.toggleNav}>
@@ -41,13 +33,12 @@ class Header extends React.Component {
             </NavLink>
             <div className="navbar-item has-dropdown is-hoverable">
               <a className="navbar-link" >
-                Projects
+                Projects (Soon to come)
               </a>
               <div className="navbar-dropdown">
                 <a className="navbar-item">
                   Overview
                 </a>
-                <hr className="navbar-divider" />
                 <a className="navbar-item">
                   This Site
                 </a>
