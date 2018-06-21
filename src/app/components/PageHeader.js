@@ -1,6 +1,6 @@
 import React from 'react';
 
-const script = {fontFamily: 'Kaushan Script, cursive', fontSize: '60px'}
+const script = {fontFamily: 'Kaushan Script, cursive', fontSize: '60px'};
 
 const PageHeader = (props) => (
   <section className={`hero ${props.color}`}>
